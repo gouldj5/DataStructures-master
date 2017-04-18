@@ -1,0 +1,47 @@
+You are going on a roadtrip with a few friends. Instead of using one of the easy to use roadtrip websites, you decide to program your own system.
+
+Your awesome program must support an "unlimited" number of stops. Each stop should have a descriptive name and the distance in miles from the last stop.
+
+For example, the first stop might be Philadelphia with a distance of 15 miles, if we assume we start at Rowan. The next stop might be Pittsburgh with a distance of 300 miles. 
+The total distance from Rowan to Pittsburgh is 315 miles, but we only worry about distances between stops.
+
+Additionally, you program must support the following use cases:
+* a user wants to know what the Xth stop is
+* a user wants to remove a stop (this should also update the mileage... if I removed Philadelphia, the distance to Pittsburgh should be updated to 315)
+		This may be a problem
+* a user wants to know the total mileage, total # of stops, mileage between two arbitrary stops
+* a user certainly doesn't want memory leaks
+I'm not placing any constraints on your implementation other than the stops must be stored in a linked list. Further, templates are NOT required.
+
+You need to turn in all classes you create and a test program that creates a few stops and demonstrates all the use cases.
+
+Hints:
+* you could just use a templated linked list from the book with a stop class you make
+* or you might want to create your own node with the stop information built in
+
+__________________________________
+
+NOTES FOR YOU:
+
+-	My distance is just assigned by the length list and no specific distance is assigned to a specific variable
+	(i realize I could probably just assign a random value to max but I dont want to)
+-	Distance doesnt exactly adjust to the deleted string
+-	Some errors may occur if the wrong value is entered, just press continue (the code is relatively harder to break than normal)
+-	I apologize for all the if statements
+
+Procedure
+1. Enter names of desinations
+2. Assign string data length to 'max'
+3. Display each destination
+4. Ask to see if they want to look at the Xth destination (Force them to do it anyway)
+5. Ask for string to delete
+6. Delete string		
+7. Keep 'max' the same	
+8. Display the list
+9. Show total distance (will not correspond)
+
+
+x. Should I re-ask for delete string? Nahhhhhhhh
+y. ???
+z. Profit
+
