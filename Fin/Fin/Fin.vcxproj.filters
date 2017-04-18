@@ -15,21 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\roadtrip\roadtrip\bag3.cxx">
+    <ClCompile Include="..\bag3.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roadtrip\roadtrip\node1.cxx">
+    <ClCompile Include="..\Final_Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\roadtrip\roadtrip\roadtrip.cpp">
+    <ClCompile Include="..\node1.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\roadtrip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\roadtrip\roadtrip\bag3.h">
+    <ClInclude Include="..\bag3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\roadtrip\roadtrip\node1.h">
+    <ClInclude Include="..\node1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

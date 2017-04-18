@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\bag3.cxx" />
+    <ClCompile Include="..\Final_Program.cpp" />
+    <ClCompile Include="..\node1.cxx" />
+    <ClCompile Include="..\roadtrip.cpp" />
+    <ClCompile Include="..\stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\bag3.h" />
+    <ClInclude Include="..\node1.h" />
+    <ClInclude Include="..\stdafx.h" />
+    <ClInclude Include="..\targetver.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{61E9E485-2A0F-40CF-A280-D013B888C525}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,15 +158,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\roadtrip\roadtrip\bag3.cxx" />
-    <ClCompile Include="..\..\roadtrip\roadtrip\node1.cxx" />
-    <ClCompile Include="..\..\roadtrip\roadtrip\roadtrip.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\roadtrip\roadtrip\bag3.h" />
-    <ClInclude Include="..\..\roadtrip\roadtrip\node1.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
