@@ -1,0 +1,123 @@
+ROOM ALLOCATION
+
+Rooms have unique identifier
+	Room has:
+	> monsters
+	> doors (max doors = 4)
+	> items
+	optional
+	> room name w/ size of room? (large (more monsters), small (less monsters))
+
+If Room = lastroom
+	CLEARPASS
+If CLEARPASSHP = 0
+	WHILE TRUE
+	YOU WIN!
+____________________________________________________
+____________________________________________________
+PLAYER MOVEMENT
+
+Prompt(You're in this room (DATAPOINT in ARRAY))
+If 
+	(action = movement)
+	if action = movement 
+		Prompt (see door)
+		Enter room if yes
+		roomlocate <- new roomlocation
+if monsters = true
+	(action != movement) 
+
+"MOVEMENT CANNOT BE BACKWARDS"
+
+*********************************
+implement
+*********************************
+<code here>
+int main() {
+
+
+}
+*********************************
+
+___________________________________________
+___________________________________________
+
+PLAYER LOOK? 
+
+Prompt (wanna look?)
+>Look around the room
+>Display items in room
+	> If (items NULL)
+		Say no items
+	> Else 
+		Theres some stuff here!
+		You see		A, B, C, D +++++
+__________________________________________
+__________________________________________
+ITEMS
+
+Use static array for item values assigned to each room
+ONLY HEALTH RECOVER
+							
+If person locate == room
+	item = available		
+	
+if (items = true & monsters == false)						
+ then prompt user: You stumbled across something!!
+ prompt: pick up? (p)
+ sure? : y/n 
+
+ If (itempickup = true)
+	HP++
+
+__________________________________________
+__________________________________________
+ENEMY
+If Room has monster (Monsterlocate = true)
+	Prompt (monster is here!!)
+	For (monsterHP != 0 & HP != 0)
+		attackphase()
+
+
+
+trigger attackphase()
+
+	monsterHP  = randomvalue (1-10)
+	Prompt ( do you want to attack or defend?)
+	if (defence = true)
+		HP <= HP
+	if (attack = true & monsterattack = true)
+		monsterHP--
+		HP--
+	if (attack = true & monsterattack = false)
+		monsterHP--
+	if (monsterHP = 0)
+		prompt(YOU WIN THIS FIGHT)
+	if (HP = 0)
+		GAMMEEE OVVVERERERRRRERERERRRR
+
+mosterattack()
+
+	randomselect (attack or nothing)
+	if attack attackphase(monsterattack)
+	if nothing
+		prompt (monster is a loaf of bread)
+
+FINALBOSS = CLEARPASS
+
+__________________________________________
+__________________________________________
+HEALTH
+
+HP <= 20
+
+If (monsterhit = true)
+	HP--
+If (itempickup = true)
+	HP++
+IF (HP = 0)
+	YA LOSE
+
+
+
+ 

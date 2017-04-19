@@ -31,6 +31,9 @@
     <ClInclude Include="..\stdafx.h" />
     <ClInclude Include="..\targetver.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Idea.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{61E9E485-2A0F-40CF-A280-D013B888C525}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
