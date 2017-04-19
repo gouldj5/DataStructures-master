@@ -120,4 +120,41 @@ IF (HP = 0)
 
 
 
- 
+ *******************************************************
+ IMPLEMENT
+ *******************************************************
+ headers
+
+main
+
+    // declare arrays
+
+    // declare variables
+
+    // begin game loop
+
+        // print introduction and instructions to console
+        // set location to first room
+        // if health <=0 print death message, break from game loop  
+        // begin room loop
+            // read data for room ie name&description, items, monster, exits
+            // cout room description
+            // if room == enddestination break from room loop
+            // begin actions loop
+                // cout options
+                // cin choice
+                // if choice is exit room set new location, break from actions loop
+                // if monster is in room is fight monster begin fight loop/function
+                    // fight details
+                     // if health <=0 print death message, break from fight loop
+                    // end fight loop
+                // if choice is look items begin items sequence/function
+                    // item details
+                    // end item loop
+                // if choice is not an option print message
+            // actions loop again
+        // room loop again
+    // print success message
+    // if play again == 0 break from game loop
+    // again game loop
+// end
