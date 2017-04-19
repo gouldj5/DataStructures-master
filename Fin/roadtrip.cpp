@@ -20,7 +20,8 @@ int main()
 	int max;
 	string crash;
 
-	cout << "Enter destination names, pressing Enter/Return after each.\nEnter 'Done' to finish your list\n"; \
+	cout << "Did you ever hear the tragedy of Darth Plagueis the Wise?\nI thought not. It's not a story the Jedi would tell you.\nIt's a Sith legend. Darth Plagueis was a Dark Lord of the Sith,\n so powerful and so wise he could use the Force to influence the midichlorians to create life... \nHe had such a knowledge of the dark side that he could even keep the ones he cared about from dying.\n\n The dark side of the Force is a pathway to many abilities some consider to be unnatural.\n He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did.\n Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep.\n\nIronic,\n he could save others from death,\n but not himself.\n\n\n";
+	cout << "Enter destination names, pressing Enter/Return after each.\nEnter 'Done' to finish your list\n";
 		cin >> dest;
 	while (dest != "Done") {
 		add_to_sorted_list(head, dest); //send to the bag and the linked list with node

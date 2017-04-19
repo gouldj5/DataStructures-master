@@ -1,0 +1,7 @@
+﻿  roadtrip.cpp
+c:\users\joshua gold\documents\_sophomore\data struct\datastructures-master\fin\roadtrip.cpp(32): warning C4018: '<=': signed/unsigned mismatch
+c:\users\joshua gold\documents\_sophomore\data struct\datastructures-master\fin\roadtrip.cpp(61): warning C4018: '>': signed/unsigned mismatch
+c:\users\joshua gold\documents\_sophomore\data struct\datastructures-master\fin\roadtrip.cpp(90): warning C4018: '<=': signed/unsigned mismatch
+c:\users\joshua gold\documents\_sophomore\data struct\datastructures-master\fin\roadtrip.cpp(103): warning C4018: '<=': signed/unsigned mismatch
+  Fin.vcxproj -> C:\Users\Joshua Gold\Documents\_sophomore\Data Struct\DataStructures-master\Fin\Debug\Fin.exe
+  Fin.vcxproj -> C:\Users\Joshua Gold\Documents\_sophomore\Data Struct\DataStructures-master\Fin\Debug\Fin.pdb (Full PDB)
