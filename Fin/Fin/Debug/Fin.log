@@ -1,5 +1,3 @@
 ﻿  Final_Program.cpp
-c:\users\joshua gold\documents\_sophomore\data struct\datastructures-master\fin\final_program.cpp(18): warning C4101: 'max': unreferenced local variable
-c:\users\joshua gold\documents\_sophomore\data struct\datastructures-master\fin\final_program.cpp(14): warning C4101: 'step': unreferenced local variable
   Fin.vcxproj -> C:\Users\Joshua Gold\Documents\_sophomore\Data Struct\DataStructures-master\Fin\Debug\Fin.exe
   Fin.vcxproj -> C:\Users\Joshua Gold\Documents\_sophomore\Data Struct\DataStructures-master\Fin\Debug\Fin.pdb (Full PDB)
