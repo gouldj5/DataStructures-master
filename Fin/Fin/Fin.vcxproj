@@ -22,7 +22,6 @@
     <ClCompile Include="..\bag3.cxx" />
     <ClCompile Include="..\Final_Program.cpp" />
     <ClCompile Include="..\node1.cxx" />
-    <ClCompile Include="..\roadtrip.cpp" />
     <ClCompile Include="..\stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
