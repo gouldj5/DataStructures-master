@@ -28,22 +28,7 @@ int main()
 		}
 		else {
 			cout << "It's not a story the Jedi would tell you.\nAs you know, he was a Sith legend and a Dark Lord of the Sith, \nso powerful and so wise he could use the Force to influence the midichlorians to create life... \nHe had such a knowledge of the dark side that he could even keep the ones he cared about from dying.\n\n The dark side of the Force is a pathway to many abilities some consider to be unnatural.\n He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did.\n Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep.\n\nIronic, \nhe could save others from death,...\nbut not himself.\n\n\n" << endl; 
-		}
-	if (room = 1)
-	
-	for (i = 1; i <= 20; i++) {
-			/* pick random number from 1 to 6 and output it */
-			printf("%d ", 1 + (rand() % 6));
-			/* if counter is divisible by 5, begin new line of output */
-			if (i % 5 == 0) {
-				printf("\n");
-			} /* end if */
-		} /* end for */
-
-		
-		
-	
-	
+		};
 	
 	system("pause");
 	return EXIT_SUCCESS;

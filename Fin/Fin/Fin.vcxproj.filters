@@ -47,6 +47,9 @@
     <ClInclude Include="..\room.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Idea.txt">
