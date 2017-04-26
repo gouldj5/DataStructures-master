@@ -4,6 +4,7 @@
 #include <string>
 #include "bag3.h"       // probably going to use sorted lists from the bag
 #include "node1.h"
+#include "room.h"
 using namespace std;
 using namespace link;
 
@@ -46,4 +47,8 @@ int main()
 	
 	system("pause");
 	return EXIT_SUCCESS;
+}
+
+room createRoom() {
+	return room(rand() % 1 + 1, rand() % 10 > 2 ? enemy() : NULL, rand() % 10 > 6 ? item() : NULL);
 }
