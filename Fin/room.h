@@ -4,11 +4,10 @@
 
 class room {
 	public :
-		room(int doors, enemy en, Item it);
-		void enterRoom(int &doors, enemy &en, Item &it);
+		room();
+		room(int doors, enemy en);
+		void enterRoom(int &doors, enemy &en);
 	private:
 		int NumDoors;
 		enemy RoomEnemy;
-		Item RoomItem;
-	
 };

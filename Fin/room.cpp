@@ -1,14 +1,17 @@
 #include "room.h"
 #include <iostream>
 
-room(int doors, Enemy en, Item it) {
+room::room() {
+	RoomEnemy = enemy();
+	NumDoors = 0;
+}
+
+room::room(int doors, enemy en) {
 	RoomEnemy = en;
-	RoomItem = it;
 	NumDoors = doors;
 }
 
-void enterRoom(int &doors, Enemy &en, Item &it) {
+void room::enterRoom(int &doors, enemy &en) {
 	doors = NumDoors;
 	en = RoomEnemy;
-	it = RoomItem;
 }
