@@ -3,10 +3,13 @@
 class Player
 {
 private:
-	using Items = std::vector<Item*>;
-	Items m_items;
-	void AddItem(const Item* item) //AddItem is AddHealth
-	{
-		m_items.push_back(const_cast<Item*>(item));
+	bool pLife{ true };
+public:
+	int phealth = 20;
+	bool eAlive() const {
+		return pLife;
+	}
+	void playerDeath() {
+		pLife = false;
 	}
 };
